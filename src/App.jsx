@@ -14,8 +14,8 @@ const App = () => {
       <Hero />
       <About />
       {/* <Skill /> */}
-      <Footer />
-      <Messenger />
+      {/* <Footer /> */}
+      {/* <Messenger /> */}
     </div>
   );
 }

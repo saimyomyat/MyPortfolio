@@ -51,7 +51,7 @@ const About = () => {
         </div>
         <div className=" flex justify-between">
           <h1 className=" text-1xl">Position</h1>
-          <span className=" text-1xl">Frontend Developer</span>
+          <span className="  text-1xl">Frontend Developer</span>
         </div>
         <div className=' mt-3 text-sm '>
           I have no experiences in this job.So,I want to serve as a junior developer. 
