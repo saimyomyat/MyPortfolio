@@ -103,7 +103,7 @@ const Navbar = () => {
           </div>
           <div
             onClick={darkModeHandler}
-            className=" bg-transparent duration-300 cursor-pointer text-3xl"
+            className=" bg-transparent select-none duration-300 cursor-pointer text-3xl"
           >
             {theme === "dark" ? <BsFillMoonStarsFill /> : <BsSun />}
           </div>
@@ -111,7 +111,7 @@ const Navbar = () => {
 
         <div
           onClick={() => setOpen(!open)}
-          className="z-[999]  block lg:hidden text-3xl cursor-pointer"
+          className="z-[999] select-none   block lg:hidden text-3xl cursor-pointer"
         >
           {open ? <GrClose /> : <GrMenu />}
         </div>
