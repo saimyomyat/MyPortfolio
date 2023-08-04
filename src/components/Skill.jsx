@@ -86,13 +86,13 @@ const Skill = () => {
       >
         <Swiper
           spaceBetween={0}
-          className=" overflow-hidden  max-w-[80%] cursor-pointer bg-transparent   py-10   "
+          className=" overflow-hidden   max-w-[80%] cursor-pointer bg-transparent   py-10   "
           breakpoints={{
            768: {
               slidesPerView: 2,
             },
           }}
-          slidesPerView={1.2}
+          slidesPerView={1}
           loop={true}
           autoplay={{
             delay: 3000,
@@ -106,7 +106,7 @@ const Skill = () => {
             return (
               <SwiperSlide key={s.id} className=" overflow-hidden">
                 <div
-                  className=" overflow-hidden dark:bg-slate-500 dark:text-white bg-blue-400
+                  className="mx-auto overflow-hidden dark:bg-slate-500 dark:text-white bg-blue-400
         border-2 border-cyan-600   dark:border-slate-700 
          rounded-xl pt-14 pb-4 p-10 relative w-[11rem]  lg:w-[15rem] "
                 >
