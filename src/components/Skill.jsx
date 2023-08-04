@@ -85,10 +85,10 @@ const Skill = () => {
     justify-between items-center    max-w-[80%] mx-auto"
       >
         <Swiper
-          spaceBetween={20}
-          className=" w-[70%] cursor-pointer bg-transparent  h-[80%] py-10 mx-auto  "
+          spaceBetween={0}
+          className=" overflow-hidden  max-w-[80%] cursor-pointer bg-transparent   py-10   "
           breakpoints={{
-            768: {
+           768: {
               slidesPerView: 2,
             },
           }}
@@ -104,9 +104,9 @@ const Skill = () => {
         >
           {mySkill.map((s) => {
             return (
-              <SwiperSlide key={s.id}>
+              <SwiperSlide key={s.id} className=" overflow-hidden">
                 <div
-                  className=" dark:bg-slate-500 dark:text-white bg-blue-400
+                  className=" overflow-hidden dark:bg-slate-500 dark:text-white bg-blue-400
         border-2 border-cyan-600   dark:border-slate-700 
          rounded-xl pt-14 pb-4 p-10 relative w-[11rem]  lg:w-[15rem] "
                 >
