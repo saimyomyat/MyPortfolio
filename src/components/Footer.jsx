@@ -11,7 +11,7 @@ const Footer = () => {
       variants={fadeIn("up", 0.3)}
       initial="hidden"
       whileInView={"show"}
-      viewport={{ once: false, amount: 0.7 }}
+      viewport={{ once: true, amount: 0.7 }}
       className=" h-screen mb-20 mt-20 w-[80%] mx-auto"
     >
       <motion.div
@@ -25,10 +25,7 @@ const Footer = () => {
       </motion.div>
 
       <motion.div
-        variants={fadeIn("up", 0.4)}
-        initial="hidden"
-        whileInView={"show"}
-        viewport={{ once: false, amount: 0.7 }}
+      
         className=" rounded-lg mt-6 flex-col md:flex-row flex 
         p-10 dark:bg-slate-500 
        bg-blue-400   gap-6  "
