@@ -86,9 +86,9 @@ const Footer = () => {
           </motion.button>
         </motion.div>
         <motion.div className=" mx-auto md:mx-0 flex flex-col gap-4">
-          <div className="max-w-[80%] flex gap-4">
+          <div className=" flex gap-4">
             <TfiEmail className=" cursor-pointer dark:text-slate-600  text-2xl text-blue-800" />{" "}
-            <p className="  cursor-pointer dark:text-white">
+            <p className="break-normal break-all cursor-pointer dark:text-white">
               saimyomyat979@gmail.com
             </p>
           </div>
