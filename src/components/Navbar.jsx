@@ -103,7 +103,7 @@ const Navbar = () => {
           </div>
           <div
             onClick={darkModeHandler}
-            className=" duration-300 cursor-pointer text-3xl"
+            className=" bg-transparent duration-300 cursor-pointer text-3xl"
           >
             {theme === "dark" ? <BsFillMoonStarsFill /> : <BsSun />}
           </div>
