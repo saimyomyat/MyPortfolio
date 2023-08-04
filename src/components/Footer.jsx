@@ -7,12 +7,15 @@ import { fadeIn } from "../../src/variants";
 
 const Footer = () => {
   return (
-    <div className=" mb-20 mt-20 w-[80%] mx-auto">
+    <motion.div
+      variants={fadeIn("up", 0.3)}
+      initial="hidden"
+      whileInView={"show"}
+      viewport={{ once: false, amount: 0.7 }}
+      className=" h-screen mb-20 mt-20 w-[80%] mx-auto"
+    >
       <motion.div
-        variants={fadeIn("up", 0.3)}
-        initial="hidden"
-        whileInView={"show"}
-        viewport={{ once: false, amount: 0.7 }}
+        id="contact"
         className="  text-blue-600 dark:text-white
       mx-auto text-center leading-3 
       font-semibold text-2xl "
@@ -35,7 +38,6 @@ const Footer = () => {
            flex gap-4 flex-col   "
         >
           <motion.input
-            id="contact"
             whileHover={{
               scale: [1.05, 1.02, 1.05, 1.02, 1],
               transition: {
@@ -124,7 +126,7 @@ const Footer = () => {
           </div>
         </motion.div>
       </motion.div>
-    </div>
+    </motion.div>
   );
 }
 
