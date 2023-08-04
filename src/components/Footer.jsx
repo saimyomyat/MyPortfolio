@@ -4,6 +4,7 @@ import {BsTelephoneForward} from 'react-icons/bs'
 import { BsFacebook,BsInstagram,BsGithub, BsTelegram } from "react-icons/bs";
 import { motion } from 'framer-motion';
 import { fadeIn } from "../../src/variants";
+import {BiLogoGmail} from 'react-icons/bi'
 
 const Footer = () => {
   return (
@@ -26,11 +27,11 @@ const Footer = () => {
 
       <motion.div
         className=" rounded-lg mt-6 flex-col md:flex-row flex 
-        py-10 px-2 md:px-10 dark:bg-slate-500 
-       bg-blue-400   gap-6 w-[80%] mx-auto "
+        p-10 dark:bg-slate-500 
+       bg-blue-400   gap-6  "
       >
         <motion.div
-          className=" mx-auto md:mx-0 md:w-[70%]  w-[80%]  
+          className=" mx-auto md:mx-0 md:w-[70%] w-full 
            flex gap-4 flex-col   "
         >
           <motion.input
@@ -85,18 +86,18 @@ const Footer = () => {
             Send
           </motion.button>
         </motion.div>
-        <motion.div className="  mx-auto md:mx-0 flex flex-col gap-4">
-          <div className=" flex gap-4">
+        <motion.div className=" mx-auto md:mx-0 flex flex-col gap-4">
+          {/* <div className=" flex gap-4">
             <TfiEmail className=" cursor-pointer dark:text-slate-600  text-2xl text-blue-800" />{" "}
-            <p className="break-normal break-all cursor-pointer dark:text-white">
-              saimyomyat@gmail.com
+            <p className="break-normal md:break-all cursor-pointer dark:text-white">
+              saimyomyat979@gmail.com
             </p>
           </div>
           <div className="cursor-pointer dark:text-white  flex gap-4">
             <BsTelephoneForward className="cursor-pointer dark:text-slate-600 text-2xl text-blue-800" />{" "}
             <p>09977158048</p>
-          </div>
-          <div className="  flex gap-4 justify-center">
+          </div> */}
+          <div className=" flex-wrap flex gap-4 justify-center items-center">
             <div>
               <a
                 href="https://www.facebook.com/sai.m.mayt.792"
@@ -118,7 +119,14 @@ const Footer = () => {
                 />
               </a>
             </div>
-            <div></div>
+            {/* <div>
+              <a href="saimyomyat979@gmail.com" target=" _blank">
+                <TfiEmail
+                  className=" cursor-pointer hover:animate-bounce
+                text-red-400 text-3xl"
+                />
+              </a>
+            </div> */}
           </div>
         </motion.div>
       </motion.div>
