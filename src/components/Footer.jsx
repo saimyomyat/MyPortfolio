@@ -26,11 +26,11 @@ const Footer = () => {
 
       <motion.div
         className=" rounded-lg mt-6 flex-col md:flex-row flex 
-        p-10 dark:bg-slate-500 
-       bg-blue-400   gap-6  "
+        py-10 px-2 md:px-10 dark:bg-slate-500 
+       bg-blue-400   gap-6 w-[80%] mx-auto "
       >
         <motion.div
-          className=" mx-auto md:mx-0 md:w-[70%] w-full 
+          className=" mx-auto md:mx-0 md:w-[70%]  w-[80%]  
            flex gap-4 flex-col   "
         >
           <motion.input
@@ -85,11 +85,11 @@ const Footer = () => {
             Send
           </motion.button>
         </motion.div>
-        <motion.div className=" mx-auto md:mx-0 flex flex-col gap-4">
+        <motion.div className="  mx-auto md:mx-0 flex flex-col gap-4">
           <div className=" flex gap-4">
             <TfiEmail className=" cursor-pointer dark:text-slate-600  text-2xl text-blue-800" />{" "}
             <p className="break-normal break-all cursor-pointer dark:text-white">
-              saimyomyat979@gmail.com
+              saimyomyat@gmail.com
             </p>
           </div>
           <div className="cursor-pointer dark:text-white  flex gap-4">

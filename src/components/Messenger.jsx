@@ -4,7 +4,7 @@ import { BsMessenger } from "react-icons/bs";
 const Messenger = () => {
   return (
     <div
-      className=" select-none fixed bottom-0 lg:right-28  right-4 z-[999] bg-cyan-600 w-16 h-16 rounded-full cursor-pointer
+      className=" select-none fixed bottom-0 lg:right-28  right-8 z-[999] bg-cyan-600 w-16 h-16 rounded-full cursor-pointer
     flex items-center justify-center animate-bounce
     "
     >
