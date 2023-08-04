@@ -68,7 +68,7 @@ const Skill = () => {
         initial="hidden"
         whileInView={"show"}
         viewport={{ once: false, amount: 0.7 }}
-        className="mt-24 w-[80%] 
+        className="mt-24 w-[80%] max-w-[80%]
        text-blue-600 dark:text-white
       mx-auto text-center leading-3 
       font-semibold text-2xl"
@@ -82,7 +82,7 @@ const Skill = () => {
         viewport={{ once: false, amount: 0.7 }}
        
         className="     md:flex-row flex-col flex  
-    justify-between items-center    w-[80%] mx-auto"
+    justify-between items-center    max-w-[80%] mx-auto"
       >
         <Swiper
           spaceBetween={20}
@@ -106,7 +106,7 @@ const Skill = () => {
             return (
               <SwiperSlide key={s.id}>
                 <div
-                  className="dark:bg-slate-500 dark:text-white bg-blue-400
+                  className=" dark:bg-slate-500 dark:text-white bg-blue-400
         border-2 border-cyan-600   dark:border-slate-700 
          rounded-xl pt-14 pb-4 p-10 relative w-[11rem]  lg:w-[15rem] "
                 >
