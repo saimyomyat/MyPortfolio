@@ -13,7 +13,7 @@ const Footer = () => {
       initial="hidden"
       whileInView={"show"}
       viewport={{ once: true, amount: 0.7 }}
-      className=" h-screen mb-4 mt-20 w-[80%] mx-auto"
+      className="  mb-4 mt-20 w-[80%] mx-auto"
     >
       <motion.div
         id="contact"
