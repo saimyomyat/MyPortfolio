@@ -33,22 +33,22 @@ const About = () => {
       >
         <div className=" w-[80%] mx-auto md:mx-0">
           <div className="    flex justify-between">
-            <h1 className=" text-1xl">Name</h1>
+            <h1 className=" text-1xl">Name :</h1>
             <span className=" text-1xl">
               {inView ? (
                 <TypeAnimation
                   sequence={["Sai Myo Myat", 200]}
                   wrapper="span"
-                  speed={20}
+                  speed={50}
                   repeat={Infinity}
                 />
               ) : null}
             </span>
           </div>
           <div className="  flex justify-between">
-            <h1 className=" text-1xl">Age</h1>
+            <h1 className=" text-1xl">Age :</h1>
             <span ref={ref} className=" text-1xl">
-              {inView ? <CountUp start={0} end={24} duration={3} /> : null}
+              {inView ? <CountUp start={0} end={24} duration={3.5} /> : null}
 
               <span className=" ms-2">years old</span>
             </span>
