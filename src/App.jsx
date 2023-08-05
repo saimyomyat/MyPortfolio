@@ -11,7 +11,7 @@ const App = () => {
   return (
     <div className="w-full md:w-[80%] mx-auto ">
       <Navbar />
-      {/* <Hero /> */}
+      <Hero />
       {/* <About /> */}
       <Skill />
       <Footer />
