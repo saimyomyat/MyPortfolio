@@ -28,7 +28,7 @@ const About = () => {
         viewport={{ once: false, amount: 0.7 }}
         className=" font-semibold text-blue-800 dark:text-white mx-auto md:mx-0 w-[80%] md:w-[35%]"
       >
-        <div className=" cstomcs flex justify-between">
+        <div className=" w-96 cstomcs flex justify-between">
           <h1 className=" text-1xl">Name</h1>
           <span className=" text-1xl">
             {inView ? (
@@ -41,7 +41,7 @@ const About = () => {
             ) : null}
           </span>
         </div>
-        <div className=" flex justify-between">
+        <div className=" w-52 flex justify-between">
           <h1 className=" text-1xl">Age</h1>
           <span ref={ref} className=" text-1xl">
             {inView ? <CountUp start={0} end={24} duration={3} /> : null}

@@ -61,7 +61,7 @@ const Navbar = () => {
   ];
   return (
     <nav
-      className="  bg-blue-400 shadow dark:bg-slate-500 mx-auto
+      className="  bg-blue-400 shadow dark:bg-slate-500 mx-auto w-[95%]
      sticky top-0 z-[999] rounded-s-md mt-1 py-4 rounded-lg  pr-10  pl-10 
     
      "
