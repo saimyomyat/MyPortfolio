@@ -24,7 +24,7 @@ const About = () => {
         mt-10 w-[80%] mx-auto"
     >
       <motion.div
-        variants={fadeIn("right", 0.3)}
+        variants={fadeIn("down", 0.3)}
         initial="hidden"
         whileInView={"show"}
         viewport={{ once: false, amount: 0.7 }}
@@ -53,10 +53,10 @@ const About = () => {
               <span className=" ms-2">years old</span>
             </span>
           </div>
-          <div className=" flex justify-between">
+          {/* <div className=" flex justify-between">
             <h1 className=" text-1xl">Position</h1>
             <span className="  text-1xl">Frontend Developer</span>
-          </div>
+          </div> */}
           <div className=" mt-3 text-sm ">
             I have no experiences in this job.So,I want to serve as a junior
             developer.
@@ -65,7 +65,7 @@ const About = () => {
       </motion.div>
 
       <motion.div
-        variants={fadeIn("left", 0.4)}
+        variants={fadeIn("up", 0.4)}
         initial="hidden"
         whileInView={"show"}
         viewport={{ once: false, amount: 0.7 }}

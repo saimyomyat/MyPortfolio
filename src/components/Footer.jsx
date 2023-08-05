@@ -13,7 +13,7 @@ const Footer = () => {
       initial="hidden"
       whileInView={"show"}
       viewport={{ once: true, amount: 0.7 }}
-      className=" h-screen mb-20 mt-20 w-[80%] mx-auto"
+      className=" h-screen mb-4 mt-20 w-[80%] mx-auto"
     >
       <motion.div
         id="contact"
@@ -69,7 +69,11 @@ const Footer = () => {
               },
             }}
             placeholder="Your Message"
-            className="  dark:text-white  dark:border-slate-900 dark:bg-slate-600 text-blue-900 px-2 py-1 outline-none border border-blue-600 rounded-md focus:border-blue-900   rounded-md bg-blue-600"
+            className="  dark:text-white 
+             dark:border-slate-900 dark:bg-slate-600
+              text-blue-900 px-2 py-1 outline-none border
+               border-blue-600 rounded-md focus:border-blue-900 
+                  bg-blue-600"
             name=""
             cols="20"
             rows="10"
