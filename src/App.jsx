@@ -12,7 +12,7 @@ const App = () => {
     <div className="w-full md:w-[80%] mx-auto ">
       <Navbar />
       {/* <Hero /> */}
-      <About />
+      {/* <About /> */}
       <Skill />
       <Footer />
       <Messenger />
